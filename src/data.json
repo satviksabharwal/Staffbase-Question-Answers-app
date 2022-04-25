@@ -1,0 +1,33 @@
+{
+    "data" : [
+        {
+            "title": "Dummy",
+            "que" : "What is React?",
+            "ans" : "React is a front-end and open-source JavaScript library which is useful in developing user interfaces specifically for applications with a single page"
+        }
+        ,
+        {
+            "title": "Dummy",
+            "que" : "What is React?",
+            "ans" : "React is a front-end and open-source JavaScript library which is useful in developing user interfaces specifically for applications with a single page"
+        }
+        ,
+        {
+            "title": "Dummy",
+            "que" : "What is React?",
+            "ans" : "React is a front-end and open-source JavaScript library which is useful in developing user interfaces specifically for applications with a single page"
+        }
+        ,
+        {
+            "title": "Dummy",
+            "que" : "What is React?",
+            "ans" : "React is a front-end and open-source JavaScript library which is useful in developing user interfaces specifically for applications with a single page"
+        }
+        ,
+        {
+            "title": "Dummy",
+            "que" : "What is React?",
+            "ans" : "React is a front-end and open-source JavaScript library which is useful in developing user interfaces specifically for applications with a single page"
+        }
+    ]
+}

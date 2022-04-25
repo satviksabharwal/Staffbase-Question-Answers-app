@@ -1,20 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .App{
-  text-align: center;
-  margin: 0;
-  padding: 0;
+  display: grid;
+  grid-template-areas: 
+  'div1 div1 div1'
+  
+  'div2 div2 div2';
+}
 
+.App_createQuestion{
+  grid-area: div1;
+  background-color: red;
+  height: 30vh;
+}
+
+.App_questions{
+  grid-area: div2;
+  background-color: blue;
+  height: auto;
+  overflow: auto;
 }
