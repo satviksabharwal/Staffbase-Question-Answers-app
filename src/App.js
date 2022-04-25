@@ -33,16 +33,19 @@ function App() {
   return (
     <div className="App">
       <div className="App_createQuestion">
-        <input type="text" placeholder="Question Title" onChange={(e) => setTempTitle(e.target.value)}/>
-        <textarea placeholder="Enter your question here" onChange={(e) => setTempQuestion(e.target.value)}></textarea>
+
+        <label htmlFor="textTitle">Title</label>
+        <input id ="textTitle" type="text" placeholder="Question Title" onChange={(e) => setTempTitle(e.target.value)}/>
+        <label htmlFor="textQuestion">Question</label>
+        <textarea id= "textQuestion" placeholder="Enter your question here" onChange={(e) => setTempQuestion(e.target.value)}></textarea>
         <button onClick={OnClickAsk}>Ask Question</button>
       </div>
       <div className="App_questions">{
         Object.keys(questionsList).length !== 0 && questionsList.map((que, index) => (
-          <>
+          <div className="cardBox">
             <h3>{`${index+1} : ${que.que}`}</h3>
             <h4>{`${que.ans}`}</h4>
-          </>
+          </div>
         ))
          }</div>
     </div>

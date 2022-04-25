@@ -1,3 +1,8 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background: #333745;
+}
 .App{
   display: grid;
   grid-template-areas: 
@@ -10,11 +15,50 @@
   grid-area: div1;
   background-color: red;
   height: 30vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: ghostwhite;
+  border: #333745;
+  justify-content: space-between;
 }
-
+.App_createQuestion > input {
+  flex: 3;
+  background-color: ghostwhite;
+  border: #333745;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.App_createQuestion > button {
+  flex: 2;
+  background-color: ghostwhite;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.App_createQuestion > textarea {
+  flex: 5;
+  background-color: ghostwhite;
+  border: #333745;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
 .App_questions{
   grid-area: div2;
-  background-color: blue;
+  background-color: #a5afd7;
   height: auto;
   overflow: auto;
+  padding: 20px;
+  justify-content: center;
+}
+
+.cardBox{
+  border: 1px solid ghostwhite;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 20px;
 }
